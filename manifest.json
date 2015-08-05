@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notepad",
+  "description": "simple notepad, author-joseph cahill",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "text-editor.html"
+  },
+  "background":{
+	"page" : "text-editor.html"
+	},
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+	"storage"
+  ]
+}
